@@ -6,8 +6,8 @@ public class MathApp {
 
     public static void main (String[] args) {
 
-        int bobSalary = 0;
-        int garySalary = 1;
+        double bobSalary = 50000.00;
+        double garySalary = 60000.00;
 
         System.out.println("The answer is " + Math.max(bobSalary,garySalary));
 
@@ -36,7 +36,7 @@ public class MathApp {
         int min = 0;
         int max = 1;
 
-        System.out.println ("The answer is " + math.random (0,1));
+       // System.out.println ("The answer is " + math.random (0,1));
 
     }
 }
