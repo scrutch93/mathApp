@@ -12,20 +12,26 @@ public class MathApp {
         System.out.println("The answer is " + Math.max(bobSalary,garySalary));
 
 
-        int carPrice = 6;
-        int truckPrice = 8;
+        double carPrice = 16000.99;
+        double truckPrice = 18000.98;
 
         System.out.println("The answer is " + Math.min(carPrice, truckPrice));
 
-        float radius = 7.25f;
+        double  radius = 7.25;
+        double  area = Math.PI * Math.pow(radius , 2f);
 
-        System.out.println("The answer is " + 3.14*Math.pow(radius,2));
+        System.out.println("The answer is " + area);
 
         double variable = 5.0;
 
         System.out.println("The answer is " + Math.sqrt(variable));
 
-        double distance = Math.hypot (85-5, 50-10);
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+
+        double distance = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
 
         System.out.println("The answer is " + distance);
 
