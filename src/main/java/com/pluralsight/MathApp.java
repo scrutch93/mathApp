@@ -33,10 +33,8 @@ public class MathApp {
 
         System.out.println("The answer is " + abs(value));
 
-        int min = 0;
-        int max = 1;
+        double randomNumber = Math.random();
 
-       // System.out.println ("The answer is " + math.random (0,1));
-
+        System.out.println("Random number between 0 and 1 is " + randomNumber);
     }
 }
